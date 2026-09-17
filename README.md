@@ -74,11 +74,16 @@ date: 2026-01-15
 tags: [notes]
 category: tech        # or life
 description: One-liner for cards and SEO.
+coverImage: /img/blog/my-first-post.jpg
 draft: false          # true hides the post from builds
 ---
 
 Your words here.
 ```
+
+Place blog hero images in `public/img/blog/` and reference them with a root-relative
+`coverImage` path. The image appears on the blog cards, at the top of the post, and
+in social/structured-data metadata.
 
 ### Trip entry
 

@@ -1,8 +1,7 @@
 ---
 title: "Phaser and Webpack and TypeScript, Oh My! - Part 1"
 date: 2020-06-19
-categories: 
-  - "game-development"
+category: tech
 tags: 
   - "node"
   - "npm"
@@ -10,7 +9,7 @@ tags:
   - "phaser3"
   - "typescript"
   - "webpack"
-coverImage: "abstract-art-blur-bright-417458.jpg"
+coverImage: /img/blog/abstract-art-blur-bright-417458.jpg
 ---
 
 This will be a 3 part post. In the first part, we will look at setting up a simple Phaser 3 project. In the second part, we'll look at developing and building our project with Webpack. In the third part, we'll look at converting our JavaScript project to TypeScript and how we can better organize our project.

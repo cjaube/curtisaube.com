@@ -1,13 +1,12 @@
 ---
 title: "React Refs and How They Work"
 date: 2021-04-15
-categories: 
-  - "web-development"
+category: tech
 tags: 
   - "hooks"
   - "react"
   - "refs"
-coverImage: "open-book.jpg"
+coverImage: /img/blog/open-book.jpg
 ---
 
 The React framework conveniently abstracts away a lot of the manual DOM manipulation, so you normally don't need access to the raw DOM elements. But every so often you do. Maybe you need to find the position of a DOM element for instance. For this purpose, React has added a feature to reference DOM elements aptly named Refs. So to start, how do we use them?

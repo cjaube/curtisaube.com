@@ -1,15 +1,14 @@
 ---
 title: "Processing Image Orientation Data"
 date: 2020-05-08
-categories: 
-  - "progress-openedge"
+category: tech
 tags: 
   - "abl"
   - "image-orientation"
   - "jpeg"
   - "openedge"
   - "progress"
-coverImage: "cellphone-selfie-of-railroad-and-sky.jpg"
+coverImage: /img/blog/cellphone-selfie-of-railroad-and-sky.jpg
 ---
 
 Late last year, I was looking into a reported issue that images were not displaying in the correct orientation on the web. It appeared to only happen when uploading pictures that were taken on certain cellphones. We eventually narrowed down the issue to JPEG orientation data.

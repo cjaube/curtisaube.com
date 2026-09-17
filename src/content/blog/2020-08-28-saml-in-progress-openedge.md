@@ -1,15 +1,14 @@
 ---
 title: "SAML in Progress OpenEdge"
 date: 2020-08-28
-categories: 
-  - "progress-openedge"
+category: tech
 tags: 
   - "net"
   - "openedge"
   - "progress"
   - "saml"
   - "xml"
-coverImage: "message-in-a-bottle.jpeg"
+coverImage: /img/blog/message-in-a-bottle.jpeg
 ---
 
 SAML is a standard that deals with authorization between identity providers (IdP) and service providers (SP). One of its primary uses is for single sign-on (SSO). OpenEdge has some SAML support built-in, but it doesn't seem to quite handle the scenario I need it to, so why not make our own SAML messages? How hard could it be?!

@@ -1,14 +1,13 @@
 ---
 title: "Object Serialization in Progress OpenEdge"
 date: 2020-05-01
-categories: 
-  - "progress-openedge"
+category: tech
 tags: 
   - "abl"
   - "openedge"
   - "progress"
   - "serialization"
-coverImage: "milk-being-poured-into-cereal-1.jpg"
+coverImage: /img/blog/milk-being-poured-into-cereal-1.jpg
 ---
 
 Since Progress version 11.7 we have the ability to serialize and deserialize class-based objects. What is serialization? Simply, it's the process of converting an object into a format that can be transmitted or stored and then remade into the object at a later time. As of this writing, json and binary formats are available.

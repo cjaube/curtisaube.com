@@ -1,14 +1,13 @@
 ---
 title: "Create CloudWatch Dashboards with CDK"
 date: 2022-05-18
-categories: 
-  - "aws-development"
+category: tech
 tags: 
   - "aws"
   - "cdk"
   - "cloudwatch"
   - "typescript"
-coverImage: "plane-dashboard-clouds.jpg"
+coverImage: /img/blog/plane-dashboard-clouds.jpg
 ---
 
 If you are familiar with AWS and CloudWatch, you may have created a dashboard through the AWS console. This can be done fairly easily, with some nice results, but you may have also found that you have to continue to maintain those dashboards as your code changes. If you would like tie a specific dashboard to a version of code, you'll have to export the dashboard as json or similar. Not a great solution. What if it was possible to automatically generate dashboards through code that lived with the rest of your deployable code? Turns out, it's possible with CDK!

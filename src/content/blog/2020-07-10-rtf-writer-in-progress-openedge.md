@@ -1,14 +1,13 @@
 ---
 title: "RTF Writer in Progress OpenEdge"
 date: 2020-07-10
-categories: 
-  - "progress-openedge"
+category: tech
 tags: 
   - "interfaces"
   - "openedge"
   - "progress"
   - "rtf"
-coverImage: "balance-macro-ocean-pebbles-235990.jpg"
+coverImage: /img/blog/balance-macro-ocean-pebbles-235990.jpg
 ---
 
 Today we are going to look at creating an RTF writer in OpenEdge. But first, what is an RTF and why would we want to make a writer for it?

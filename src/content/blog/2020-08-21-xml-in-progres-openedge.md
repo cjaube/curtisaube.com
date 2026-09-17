@@ -1,13 +1,12 @@
 ---
 title: "XML in Progres OpenEdge"
 date: 2020-08-21
-categories: 
-  - "progress-openedge"
+category: tech
 tags: 
   - "openedge"
   - "progress"
   - "xml"
-coverImage: "pexels-photo-437345.jpeg"
+coverImage: /img/blog/pexels-photo-437345.jpeg
 ---
 
 I recently had the need to work with some XML in Progress OpenEdge and found it to be a bit tricky, so I've compiled some of my discoveries here.

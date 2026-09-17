@@ -1,14 +1,13 @@
 ---
 title: "Revert, Revert!"
 date: 2020-06-05
-categories: 
-  - "version-control"
+category: tech
 tags: 
   - "git"
   - "revert"
   - "source-control"
   - "version-control"
-coverImage: "railroad-through-the-forest-luxembourg.jpg"
+coverImage: /img/blog/railroad-through-the-forest-luxembourg.jpg
 ---
 
 When developing software, it's common to use a version control system. It's a great tool to help your team collaborate on development. Unfortunately, at some point in the course of developing your software, you will probably run into problems. When you do, version control is once again there to help you, this time by providing tools to review and undo past changes. Let's take a look at Git, a popular version control system, and some of the ways you can revert!

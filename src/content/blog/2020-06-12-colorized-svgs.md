@@ -1,13 +1,12 @@
 ---
 title: "Colorized SVGs"
 date: 2020-06-12
-categories: 
-  - "web-development"
+category: tech
 tags: 
   - "jquery"
   - "svg"
   - "theming"
-coverImage: "artists-paint-pots-and-brushes.jpg"
+coverImage: /img/blog/artists-paint-pots-and-brushes.jpg
 ---
 
 On to the topic of theming again! I talked about setting theme colors in my post [Automatic Theme Colors](https://curtisaube.com/?p=58), but what happens when we also need to change the color of our icons? One solution is to use an icon font. The advantage is that it allows you to change the color simply by changing the font color, but there are [many issues with icon fonts](https://cloudfour.com/thinks/seriously-dont-use-icon-fonts/) probably due to the fact that fonts were never meant to be used this way. Another solution is to use SVGs. These days there is really great browser support for SVGs, they scale well and as we'll find out in a minute, they can be colorized.

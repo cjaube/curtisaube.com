@@ -1,8 +1,7 @@
 ---
 title: "Create Custom CloudWatch Metrics with Serverless"
 date: 2022-06-23
-categories: 
-  - "aws-development"
+category: tech
 tags: 
   - "aws"
   - "cdk"
@@ -10,7 +9,7 @@ tags:
   - "metrics"
   - "serverless"
   - "typescript"
-coverImage: "pexels-photo-7947709.jpeg"
+coverImage: /img/blog/pexels-photo-7947709.jpeg
 ---
 
 In a previous post, I wrote about how to [Create CloudWatch Dashboards with CDK](https://curtisaube.com/blog/create-cloudwatch-dashboards-with-cdk/). In this followup post, I describe how to create a custom CloudWatch Metric with Serverless and then display it in the dashboard.

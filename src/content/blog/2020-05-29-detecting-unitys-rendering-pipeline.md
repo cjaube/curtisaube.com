@@ -1,15 +1,14 @@
 ---
 title: "Determine Unity's Rendering Pipeline at Compile Time"
 date: 2020-05-29
-categories: 
-  - "game-development"
+category: tech
 tags: 
   - "define-directive"
   - "rendering-pipeline"
   - "srp"
   - "unity"
   - "urp"
-coverImage: "dark-brewing-room-with-pipes.jpg"
+coverImage: /img/blog/dark-brewing-room-with-pipes.jpg
 ---
 
 I've been updating my [Smooth Screen Transition](https://assetstore.unity.com/packages/tools/gui/smooth-scene-transition-55812) asset to support VR in Unity's new Universal Rendering Pipeline (URP). Since Screen Space UI doesn't work with VR and you can't use the [GL](https://docs.unity3d.com/ScriptReference/GL.html) api with URP, I needed to look for an alternative and found [this bit of code](https://gist.github.com/phi-lira/46c98fc67640cda47dcd27e9b3765b85) that uses Unity's [CommandBuffer](https://docs.unity3d.com/ScriptReference/Rendering.CommandBuffer.html) to draw a full screen quad to the camera. This is fine, but it relies on a library (UnityEngine.Rendering.Universal) that's only there when URP is installed. So, of course, we need to wrap our using statement in a [#define directive](https://docs.unity3d.com/Manual/PlatformDependentCompilation.html) for URP, but alas, there isn't one.

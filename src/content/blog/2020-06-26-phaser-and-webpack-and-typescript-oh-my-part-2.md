@@ -1,9 +1,7 @@
 ---
 title: "Phaser and Webpack and TypeScript, Oh My! - Part 2"
 date: 2020-06-26
-categories: 
-  - "game-development"
-  - "web-development"
+category: tech
 tags: 
   - "node"
   - "npm"
@@ -11,7 +9,7 @@ tags:
   - "phaser3"
   - "typescript"
   - "webpack"
-coverImage: "crop-man-taping-carrying-box-with-scotch-4246120.jpg"
+coverImage: /img/blog/crop-man-taping-carrying-box-with-scotch-4246120.jpg
 ---
 
 If you're just getting here, make sure to check out [part 1](https://curtisaube.com/wp-admin/post.php?post=107) where we setup our Phaser 3 project. In this part we will be adding Webpack. You may have noticed in the last part, we pulled the Phaser source from a CDN. This is okay, but when we go to publish our game, we'll probably want all the source bundled together. This is where where webpack comes in. Now of course, there are many options out there for minifying, transpiling and bundling your code, but Webpack does all this and more, as we'll see in a bit, with some pretty straightforward configuration.

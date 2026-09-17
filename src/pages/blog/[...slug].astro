@@ -41,6 +41,7 @@ const jsonLd = {
   ...(post.data.updated && { dateModified: post.data.updated.toISOString() }),
   author: { '@type': 'Person', name: post.data.author },
   url: `${site.url}${withBase(`/blog/${post.id}/`)}`,
+  ...(post.data.coverImage && { image: `${site.url}${withBase(post.data.coverImage)}` }),
 };
 ---
 

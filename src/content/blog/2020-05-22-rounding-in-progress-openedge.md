@@ -1,8 +1,7 @@
 ---
 title: "Rounding and TDD in Progress OpenEdge"
 date: 2020-05-22
-categories: 
-  - "progress-openedge"
+category: tech
 tags: 
   - "openedge"
   - "progress"
@@ -10,7 +9,7 @@ tags:
   - "tdd"
   - "test-driven-development"
   - "truncate"
-coverImage: "the-round-tower-inside-in-the-building-in-kabenhavn-denmark.jpg"
+coverImage: /img/blog/the-round-tower-inside-in-the-building-in-kabenhavn-denmark.jpg
 ---
 
 Have you ever needed to round something up or down to a certain number of decimal places? This is pretty common, especially when dealing with currency. Progress OpenEdge has a built-in arithmetic function called round that can round to the nearest precision. It's used like this:

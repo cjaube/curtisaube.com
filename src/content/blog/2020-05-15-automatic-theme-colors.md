@@ -1,16 +1,14 @@
 ---
 title: "Automatic Theme Colors"
 date: 2020-05-15
-categories: 
-  - "progress-openedge"
-  - "web-development"
+category: tech
 tags: 
   - "color"
   - "contrast"
   - "openedge"
   - "progress"
   - "wcag"
-coverImage: "primary-school-pencils-and-apple.jpg"
+coverImage: /img/blog/primary-school-pencils-and-apple.jpg
 ---
 
 I recently received a task to make a website themeable. The user would be able to select a small set of theme colors and all the colors used in the app would then be based on those theme colors. This means automatically selecting appropriate additional colors. Let's look at how to solve this with CSS variables and Progress OpenEdge.

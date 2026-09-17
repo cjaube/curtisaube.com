@@ -1,8 +1,7 @@
 ---
 title: "Collections in Progress OpenEdge"
 date: 2020-07-17
-categories: 
-  - "progress-openedge"
+category: tech
 tags: 
   - "abl"
   - "collections"
@@ -10,7 +9,7 @@ tags:
   - "generics"
   - "openedge"
   - "progress"
-coverImage: "selective-focus-photography-of-brown-wooden-book-shelf-2952871.jpg"
+coverImage: /img/blog/selective-focus-photography-of-brown-wooden-book-shelf-2952871.jpg
 ---
 
 Collections are a bit of a sticky subject in Progress. The reason for this is that Progress doesn't currently support Generics. Why does that matter? Generics make it so that you can handle types in a generic way. Without that language feature, you can't easily have typed collections, but not all is lost. Let's take a look at the options we have and why types matter.

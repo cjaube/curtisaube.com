@@ -1,11 +1,10 @@
 ---
 title: "Capturing Impressions"
 date: 2021-10-15
-categories: 
-  - "web-development"
+category: tech
 tags: 
   - "javascript"
-coverImage: "pexels-photo-3769697.jpeg"
+coverImage: /img/blog/pexels-photo-3769697.jpeg
 ---
 
 What is an impression? This is a term that is used typically when talking about advertising and the idea is that we want to know if something has been viewed. We can't know for sure that something was actually viewed, but we can make an educated guess. So the criteria we will use is that 50% of the pixels of the ad are viewable on the screen for at least 1 second. So, how do we determine this? That's the capturing part.

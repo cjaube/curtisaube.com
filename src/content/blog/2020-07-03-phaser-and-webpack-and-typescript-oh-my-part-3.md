@@ -1,14 +1,12 @@
 ---
 title: "Phaser and Webpack and TypeScript, Oh My! – Part 3"
 date: 2020-07-03
-categories: 
-  - "game-development"
-  - "web-development"
+category: tech
 tags: 
   - "game-development"
   - "phaser"
   - "typescript"
-coverImage: "seattle_washington_state_skyline.jpg"
+coverImage: /img/blog/seattle_washington_state_skyline.jpg
 ---
 
 In this last part of my 3-part post, we'll be talking about converting our project to TypeScript. If you are just joining, but sure to check out the [previous posts](https://curtisaube.com/?p=107).

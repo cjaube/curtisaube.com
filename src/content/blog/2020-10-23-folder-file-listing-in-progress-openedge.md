@@ -1,8 +1,7 @@
 ---
 title: "Folder File listing in Progress OpenEdge"
 date: 2020-10-23
-categories: 
-  - "progress-openedge"
+category: tech
 tags: 
   - "filesystem"
   - "folder"
@@ -10,7 +9,7 @@ tags:
   - "openedge"
   - "progress"
   - "search"
-coverImage: "pexels-element-digital-1370294.jpg"
+coverImage: /img/blog/pexels-element-digital-1370294.jpg
 ---
 
 I had a case where I need to get a listing of all the procedures in a folder and run each one. ABL has a nifty search function that you can use to find a file, but there is no way to search for a folder or get a listing of files. So this it what I set out to build.
