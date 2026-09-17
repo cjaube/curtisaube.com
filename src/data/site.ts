@@ -30,7 +30,7 @@ export const site = {
   shortTitle: 'curtisaube',
   /** Default meta description for pages that don't set their own */
   description:
-    'Software engineer, puppeteer and Christian — writing about software and faith.',
+    'Software engineer, game developer, puppeteer, father and Christian — writing about software, game development and faith.',
   /** Your production URL — no trailing slash. Used for canonical URLs, OG tags, RSS and sitemap */
   url: 'https://curtisaube.com',
   author: {
