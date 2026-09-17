@@ -41,14 +41,15 @@ const formatDate = (e: { start: string; end: string }) =>
         ))
       }
     </ul>
-
-    <div class="earlier">
-      <strong>Earlier:</strong>
-      {
-        earlierRoles.map((r) => (
-          <span>{r.role}, {r.company} ({r.start})</span>
-        ))
-      }
-    </div>
+    {earlierRoles.length > 0 &&
+      <div class="earlier">
+        <strong>Earlier:</strong>
+        {
+          earlierRoles.map((r) => (
+            <span>{r.role}, {r.company} ({r.start})</span>
+          ))
+        }
+      </div>
+    }
   </div>
 </section>

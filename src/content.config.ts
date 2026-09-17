@@ -13,7 +13,7 @@ const blog = defineCollection({
     tags: z.array(z.string()).default([]),
     coverImage: z.string().optional(),
     category: z.enum(['tech', 'life']).default('tech'),
-    author: z.string().default('Rowan Hale'),
+    author: z.string().default('Curtis Aube'),
     mathjax: z.boolean().default(false),
     draft: z.boolean().default(false),
   }),

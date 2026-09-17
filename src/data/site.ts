@@ -25,28 +25,28 @@ export interface SocialLink {
  */
 export const site = {
   /** Your full name — used for <title> and meta tags */
-  title: 'Rowan Hale',
-  /** Short handle used after the dot in page titles ("About · rowanhale") */
-  shortTitle: 'rowanhale',
+  title: 'Curtis Aube',
+  /** Short handle used after the dot in page titles ("About · curtisaube") */
+  shortTitle: 'curtisaube',
   /** Default meta description for pages that don't set their own */
   description:
-    'Software engineer and occasional traveler — writing about code and sharing photos from the road.',
+    'Software engineer, puppeteer and Christian — writing about software and faith.',
   /** Your production URL — no trailing slash. Used for canonical URLs, OG tags, RSS and sitemap */
-  url: 'https://example.com',
+  url: 'https://curtisaube.com',
   author: {
-    name: 'Rowan Hale',
-    email: 'hello@example.com',
-    location: 'Portland, OR',
+    name: 'Curtis Aube',
+    email: 'curtis.aube@gmail.com',
+    location: 'Essex, Vermont, USA',
     /** Optional: link to a PDF résumé served from /public */
     resume: '/resume/Resume.pdf',
   },
   /** Shown in the hero and footer. Delete a line to remove it from both places.
    *  `icon` is any name from src/components/Icon.astro */
   socials: {
-    github: { url: 'https://github.com', label: 'GitHub', icon: 'github' },
-    linkedin: { url: 'https://www.linkedin.com', label: 'LinkedIn', icon: 'linkedin' },
-    instagram: { url: 'https://www.instagram.com', label: 'Instagram', icon: 'instagram' },
-    email: { url: 'mailto:hello@example.com', label: 'Email', icon: 'email' },
+    github: { url: 'https://github.com/cjaube', label: 'GitHub', icon: 'github' },
+    linkedin: { url: 'https://www.linkedin.com/in/curtis-aube-260b3330/', label: 'LinkedIn', icon: 'linkedin' },
+    instagram: { url: 'https://www.instagram.com/cjaube/', label: 'Instagram', icon: 'instagram' },
+    email: { url: 'mailto:curtis.aube@gmail.com', label: 'Email', icon: 'email' },
     rss: { url: '/rss.xml', label: 'RSS', icon: 'rss' },
   } satisfies Record<string, SocialLink>,
 };
