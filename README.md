@@ -1,46 +1,6 @@
-# Astro Wanderer
+# CurtisAube.com
 
-A personal site theme for [Astro](https://astro.build) — portfolio, blog, and travel photo galleries in one quiet, fast template.
-
-**[Live demo](https://igagansingh.com/astro-wanderer)**
-
-![Astro Wanderer homepage](screenshot.png)
-
-## Why Wanderer
-
-Most developer portfolios stop at the work page. Wanderer is built around the idea that a good personal site shows what you're like *when you're not working* — so it ships with a travel section where every trip is a story with a photo carousel and lightbox, right next to your résumé and blog.
-
-## Features
-
-- **Home** — hero with a typing animation, avatar, and social links
-- **Work** — expandable experience timeline, education, and skill groups, all from one data file
-- **Blog** — markdown posts with tags, tag pages, prev/next navigation, reading time, and drafts
-- **Travel** — trip entries with hero images, highlight badges, photo carousel, lightbox with keyboard navigation, and optional video support
-- **Zero JS by default** — only three tiny scripts (theme toggle, typing effect, gallery); no framework runtime
-- **Dark/light mode** — respects `prefers-color-scheme`, remembers your choice, no flash on load
-- **SEO ready** — canonical URLs, Open Graph/Twitter cards, JSON-LD structured data, sitemap, RSS feed
-- **Accessible** — semantic HTML, skip-free keyboard navigation in galleries, `aria` labels throughout
-- **One config file** — name, socials, bio, and résumé all live in plain TypeScript data files
-- **100/100 Lighthouse** out of the box on a static build
-
-## Quick start
-
-Use this template with the Astro CLI:
-
-```sh
-npm create astro@latest -- --template igagansingh/astro-wanderer
-```
-
-Or clone it directly:
-
-```sh
-git clone https://github.com/igagansingh/astro-wanderer.git
-cd astro-wanderer
-npm install
-npm run dev
-```
-
-Then open `src/data/site.ts` — it's the single source of truth for your name, tagline, social links, and production URL. The sample post in `src/content/blog/getting-started.md` walks through everything else.
+Build from [Astro Wanderer](https://github.com/igagansingh/astro-wanderer)
 
 ## Project structure
 
@@ -139,10 +99,6 @@ Any static host works too — Netlify, Vercel, Cloudflare Pages — just point t
 | `npm run build`   | Production build to `./dist/`             |
 | `npm run preview` | Preview the production build locally      |
 | `npm run check`   | Type-check the project                    |
-
-## Credits
-
-Built by [Gagan Singh](https://igagansingh.com) with [opencode](https://opencode.ai) — every part of this template, from the design tokens to the photo lightbox, was written pair-programming style with an AI coding agent.
 
 ## License
 
